@@ -4,12 +4,18 @@ vue的自定义指令，用于在手机端input输入的时候，顶部浮窗同
 # 使用方法
 
 在vue的main.js 中增加
+
+```js
 // 自定义指令
 import Directives from '../../directive'
 Vue.use(Directives)
+```
 
 模板中:
- <input v-input-top-view type="text" />
+
+```html
+<input v-input-top-view type="text" />
+```
 
 
 ![image](https://github.com/niboac/vue-directive-input-top-view/blob/main/static/demo.gif)
