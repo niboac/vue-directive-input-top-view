@@ -12,4 +12,4 @@ Vue.use(Directives)
  <input v-input-top-view type="text" />
 
 
-![image]()
+![image](https://github.com/niboac/vue-directive-input-top-view/blob/main/static/demo.gif)
